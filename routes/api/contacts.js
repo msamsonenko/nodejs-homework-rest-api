@@ -5,7 +5,7 @@ const {
 	addContact,
 	removeContact,
 	updateContact,
-} = require("../../models/contacts");
+} = require("../../repository/contacts");
 
 const Joi = require("joi");
 
